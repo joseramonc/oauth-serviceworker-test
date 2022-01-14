@@ -6,6 +6,9 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag 'application' %>
+    <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+    <link rel="manifest" href="/manifest.json" />
   </head>
 
   <body>
